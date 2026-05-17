@@ -1,8 +1,22 @@
-# Omakub
+# Omakub Debian 13 Fork
 
-Turn a fresh Ubuntu installation into a fully-configured, beautiful, and modern web development system by running a single command. That's the one-line pitch for Omakub. No need to write bespoke configs for every essential tool just to get started or to be up on all the latest command-line tools. Omakub is an opinionated take on what Linux can be at its best.
+This repository is a fork of [basecamp/omakub](https://github.com/basecamp/omakub) adapted for Debian 13 (Trixie) users.
 
-Watch the introduction video and read more at [omakub.org](https://omakub.org).
+Upstream Omakub turns a fresh Ubuntu installation into a fully-configured, beautiful, and modern web development system by running a single command. This fork keeps that spirit, but changes the installer defaults and package sources for Debian 13.
+
+## Debian 13 status
+
+Experimental. Use this only on a fresh Debian 13 GNOME desktop or disposable VM until the full installer has been validated end-to-end.
+
+Install from the Debian 13 branch:
+
+```bash
+wget -qO- https://raw.githubusercontent.com/Maximo-Miranda/omakub/debian-13/boot.sh | bash
+```
+
+See [DEBIAN13.md](DEBIAN13.md) for the Debian-specific changes, test notes, and known follow-up checks.
+
+For the original project, watch the introduction video and read more at [omakub.org](https://omakub.org).
 
 ## Contributing to the documentation
 

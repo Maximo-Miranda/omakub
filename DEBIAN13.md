@@ -6,6 +6,8 @@ This branch is a Debian 13 adaptation of upstream Omakub (`basecamp/omakub`).
 
 Experimental. Use only on a fresh Debian 13 GNOME desktop or VM until the full installer has been tested end-to-end.
 
+A Docker smoke test has validated the Debian 13 OS gate, shell syntax, Docker Debian repository setup, `fastfetch`, GitHub CLI, and removal of high-risk Ubuntu PPA/snap references. Docker cannot validate GNOME desktop behavior, extensions, dock/app-grid settings, reboot flow, or graphical `.deb` integrations; those still require a disposable Debian 13 GNOME VM/VPS.
+
 ## Install from this fork
 
 ```bash
