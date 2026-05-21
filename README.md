@@ -8,11 +8,15 @@ Upstream Omakub turns a fresh Ubuntu installation into a fully-configured, beaut
 
 Experimental. Use this only on a fresh Debian 13 GNOME desktop or disposable VM until the full installer has been validated end-to-end.
 
-Install from the Debian 13 branch:
+Install from the Debian 13 branch. Copy and paste this command in a fresh Debian 13 GNOME terminal:
 
 ```bash
 wget -qO- https://raw.githubusercontent.com/Maximo-Miranda/omakub/debian-13/boot.sh | bash
 ```
+
+Direct script link, in case you want to inspect or copy it manually:
+
+https://raw.githubusercontent.com/Maximo-Miranda/omakub/debian-13/boot.sh
 
 See [DEBIAN13.md](DEBIAN13.md) for the Debian-specific changes, test notes, and known follow-up checks.
 
